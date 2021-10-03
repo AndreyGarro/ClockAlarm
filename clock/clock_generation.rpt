@@ -1,0 +1,196 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Usuario\Desktop\Embebidos\clock\clock.qsys --block-symbol-file --output-directory=C:\Users\Usuario\Desktop\Embebidos\clock\clock --family="Cyclone V" --part=5CEBA2F17A7
+Progress: Loading clock/clock.qsys
+Progress: Reading input file
+Progress: Adding CLK [clock_source 18.1]
+Progress: Parameterizing module CLK
+Progress: Adding CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module CPU
+Progress: Adding RAM [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module RAM
+Progress: Adding REG_Bd [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bd
+Progress: Adding REG_Bn [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bn
+Progress: Adding REG_Bs [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bs
+Progress: Adding REG_Bu [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bu
+Progress: Adding REG_H1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_H1
+Progress: Adding REG_H2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_H2
+Progress: Adding REG_LED [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_LED
+Progress: Adding REG_M1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_M1
+Progress: Adding REG_M2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_M2
+Progress: Adding REG_S1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_S1
+Progress: Adding REG_S2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_S2
+Progress: Adding TIMER [altera_avalon_timer 18.1]
+Progress: Parameterizing module TIMER
+Progress: Adding UART [altera_avalon_uart 18.1]
+Progress: Parameterizing module UART
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: clock.REG_Bd: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: clock.REG_Bn: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: clock.REG_Bs: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: clock.REG_Bu: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: clock.REG_Bd: REG_Bd.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_Bn: REG_Bn.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_Bs: REG_Bs.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_Bu: REG_Bu.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_H1: REG_H1.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_H2: REG_H2.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_LED: REG_LED.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_M1: REG_M1.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_M2: REG_M2.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_S1: REG_S1.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_S2: REG_S2.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.UART: UART.external_connection must be exported, or connected to a matching conduit.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Usuario\Desktop\Embebidos\clock\clock.qsys --synthesis=VERILOG --output-directory=C:\Users\Usuario\Desktop\Embebidos\clock\clock\synthesis --family="Cyclone V" --part=5CEBA2F17A7
+Progress: Loading clock/clock.qsys
+Progress: Reading input file
+Progress: Adding CLK [clock_source 18.1]
+Progress: Parameterizing module CLK
+Progress: Adding CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module CPU
+Progress: Adding RAM [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module RAM
+Progress: Adding REG_Bd [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bd
+Progress: Adding REG_Bn [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bn
+Progress: Adding REG_Bs [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bs
+Progress: Adding REG_Bu [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_Bu
+Progress: Adding REG_H1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_H1
+Progress: Adding REG_H2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_H2
+Progress: Adding REG_LED [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_LED
+Progress: Adding REG_M1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_M1
+Progress: Adding REG_M2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_M2
+Progress: Adding REG_S1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_S1
+Progress: Adding REG_S2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module REG_S2
+Progress: Adding TIMER [altera_avalon_timer 18.1]
+Progress: Parameterizing module TIMER
+Progress: Adding UART [altera_avalon_uart 18.1]
+Progress: Parameterizing module UART
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: clock.REG_Bd: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: clock.REG_Bn: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: clock.REG_Bs: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: clock.REG_Bu: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: clock.REG_Bd: REG_Bd.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_Bn: REG_Bn.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_Bs: REG_Bs.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_Bu: REG_Bu.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_H1: REG_H1.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_H2: REG_H2.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_LED: REG_LED.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_M1: REG_M1.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_M2: REG_M2.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_S1: REG_S1.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.REG_S2: REG_S2.external_connection must be exported, or connected to a matching conduit.
+Warning: clock.UART: UART.external_connection must be exported, or connected to a matching conduit.
+Info: clock: Generating clock "clock" for QUARTUS_SYNTH
+Info: CPU: "clock" instantiated altera_nios2_gen2 "CPU"
+Info: RAM: Starting RTL generation for module 'clock_RAM'
+Info: RAM:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=clock_RAM --dir=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0028_RAM_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0028_RAM_gen//clock_RAM_component_configuration.pl  --do_build_sim=0  ]
+Info: RAM: Done RTL generation for module 'clock_RAM'
+Info: RAM: "clock" instantiated altera_avalon_onchip_memory2 "RAM"
+Info: REG_Bd: Starting RTL generation for module 'clock_REG_Bd'
+Info: REG_Bd:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=clock_REG_Bd --dir=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0029_REG_Bd_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0029_REG_Bd_gen//clock_REG_Bd_component_configuration.pl  --do_build_sim=0  ]
+Info: REG_Bd: Done RTL generation for module 'clock_REG_Bd'
+Info: REG_Bd: "clock" instantiated altera_avalon_pio "REG_Bd"
+Info: REG_H1: Starting RTL generation for module 'clock_REG_H1'
+Info: REG_H1:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=clock_REG_H1 --dir=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0030_REG_H1_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0030_REG_H1_gen//clock_REG_H1_component_configuration.pl  --do_build_sim=0  ]
+Info: REG_H1: Done RTL generation for module 'clock_REG_H1'
+Info: REG_H1: "clock" instantiated altera_avalon_pio "REG_H1"
+Info: TIMER: Starting RTL generation for module 'clock_TIMER'
+Info: TIMER:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=clock_TIMER --dir=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0031_TIMER_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0031_TIMER_gen//clock_TIMER_component_configuration.pl  --do_build_sim=0  ]
+Info: TIMER: Done RTL generation for module 'clock_TIMER'
+Info: TIMER: "clock" instantiated altera_avalon_timer "TIMER"
+Info: UART: Starting RTL generation for module 'clock_UART'
+Info: UART:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart/generate_rtl.pl --name=clock_UART --dir=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0032_UART_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0032_UART_gen//clock_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: UART: Done RTL generation for module 'clock_UART'
+Info: UART: "clock" instantiated altera_avalon_uart "UART"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "clock" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "clock" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "clock" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'clock_CPU_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=clock_CPU_cpu --dir=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0035_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Usuario/AppData/Local/Temp/alt8903_5845693486999625600.dir/0035_cpu_gen//clock_CPU_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2021.10.03 10:08:00 (*) Starting Nios II generation
+Info: cpu: # 2021.10.03 10:08:00 (*)   Checking for plaintext license.
+Info: cpu: # 2021.10.03 10:08:14 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2021.10.03 10:08:14 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2021.10.03 10:08:14 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2021.10.03 10:08:14 (*)   Plaintext license not found.
+Info: cpu: # 2021.10.03 10:08:14 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2021.10.03 10:08:14 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.10.03 10:08:14 (*)   Creating all objects for CPU
+Info: cpu: # 2021.10.03 10:08:16 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.10.03 10:08:16 (*)   Creating plain-text RTL
+Info: cpu: # 2021.10.03 10:08:17 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'clock_CPU_cpu'
+Info: cpu: "CPU" instantiated altera_nios2_gen2_unit "cpu"
+Info: CPU_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "CPU_data_master_translator"
+Info: CPU_debug_mem_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "CPU_debug_mem_slave_translator"
+Info: CPU_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "CPU_data_master_agent"
+Info: CPU_debug_mem_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "CPU_debug_mem_slave_agent"
+Info: CPU_debug_mem_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "CPU_debug_mem_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_015: "mm_interconnect_0" instantiated altera_merlin_router "router_015"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_013: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_013"
+Info: Reusing file C:/Users/Usuario/Desktop/Embebidos/clock/clock/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_013: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_013"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Usuario/Desktop/Embebidos/clock/clock/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/Usuario/Desktop/Embebidos/clock/clock/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: clock: Done "clock" with 30 modules, 43 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

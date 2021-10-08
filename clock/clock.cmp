@@ -1,7 +1,14 @@
 	component clock is
 		port (
-			clk_clk       : in std_logic := 'X'; -- clk
-			reset_reset_n : in std_logic := 'X'  -- reset_n
+			clk_clk                             : in  std_logic                    := 'X'; -- clk
+			reg_h1_external_connection_export   : out std_logic_vector(7 downto 0);        -- export
+			reg_h2_external_connection_1_export : out std_logic_vector(7 downto 0);        -- export
+			reg_m1_external_connection_export   : out std_logic_vector(7 downto 0);        -- export
+			reg_m2_external_connection_export   : out std_logic_vector(7 downto 0);        -- export
+			reg_s1_external_connection_export   : out std_logic_vector(7 downto 0);        -- export
+			reg_s2_external_connection_export   : out std_logic_vector(7 downto 0);        -- export
+			reset_reset_n                       : in  std_logic                    := 'X'; -- reset_n
+			timer_irq_irq                       : out std_logic                            -- irq
 		);
 	end component clock;
 

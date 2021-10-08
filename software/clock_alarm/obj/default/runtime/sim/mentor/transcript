@@ -1,0 +1,946 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do load_sim.tcl
+# obj/default/runtime/sim
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+#  ld
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:35 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module clock_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module clock_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_avalon_st_adapter
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module clock_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_rsp_mux_001
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module clock_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_rsp_mux
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_rsp_demux_014.sv -L altera_common_sv_packages -work rsp_demux_014 
+# -- Compiling module clock_mm_interconnect_0_rsp_demux_014
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_rsp_demux_014
+# End time: 00:01:36 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:36 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module clock_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_rsp_demux
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_cmd_mux_014.sv -L altera_common_sv_packages -work cmd_mux_014 
+# -- Compiling module clock_mm_interconnect_0_cmd_mux_014
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_cmd_mux_014
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_014 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module clock_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_cmd_mux
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
+# -- Compiling module clock_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_cmd_demux_001
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module clock_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_cmd_demux
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_router_016.sv -L altera_common_sv_packages -work router_016 
+# -- Compiling module clock_mm_interconnect_0_router_016_default_decode
+# -- Compiling module clock_mm_interconnect_0_router_016
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_router_016
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:37 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# -- Compiling module clock_mm_interconnect_0_router_002_default_decode
+# -- Compiling module clock_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_router_002
+# End time: 00:01:37 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module clock_mm_interconnect_0_router_001_default_decode
+# -- Compiling module clock_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_router_001
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module clock_mm_interconnect_0_router_default_decode
+# -- Compiling module clock_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0_router
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_avalon_sc_fifo.v -work JTAG_avalon_jtag_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work JTAG_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work JTAG_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work CPU_data_master_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work JTAG_avalon_jtag_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:38 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work CPU_data_master_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 00:01:38 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v -work cpu 
+# -- Compiling module clock_CPU_cpu_register_bank_a_module
+# -- Compiling module clock_CPU_cpu_register_bank_b_module
+# -- Compiling module clock_CPU_cpu_nios2_oci_debug
+# -- Compiling module clock_CPU_cpu_nios2_oci_break
+# -- Compiling module clock_CPU_cpu_nios2_oci_xbrk
+# -- Compiling module clock_CPU_cpu_nios2_oci_dbrk
+# -- Compiling module clock_CPU_cpu_nios2_oci_itrace
+# -- Compiling module clock_CPU_cpu_nios2_oci_td_mode
+# -- Compiling module clock_CPU_cpu_nios2_oci_dtrace
+# -- Compiling module clock_CPU_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module clock_CPU_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module clock_CPU_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module clock_CPU_cpu_nios2_oci_fifo
+# -- Compiling module clock_CPU_cpu_nios2_oci_pib
+# -- Compiling module clock_CPU_cpu_nios2_oci_im
+# -- Compiling module clock_CPU_cpu_nios2_performance_monitors
+# -- Compiling module clock_CPU_cpu_nios2_avalon_reg
+# -- Compiling module clock_CPU_cpu_ociram_sp_ram_module
+# -- Compiling module clock_CPU_cpu_nios2_ocimem
+# -- Compiling module clock_CPU_cpu_nios2_oci
+# -- Compiling module clock_CPU_cpu
+# 
+# Top level modules:
+# 	clock_CPU_cpu_nios2_performance_monitors
+# 	clock_CPU_cpu
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_sysclk.v -work cpu 
+# -- Compiling module clock_CPU_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	clock_CPU_cpu_debug_slave_sysclk
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_tck.v -work cpu 
+# -- Compiling module clock_CPU_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	clock_CPU_cpu_debug_slave_tck
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_wrapper.v -work cpu 
+# -- Compiling module clock_CPU_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	clock_CPU_cpu_debug_slave_wrapper
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_test_bench.v -work cpu 
+# -- Compiling module clock_CPU_cpu_test_bench
+# 
+# Top level modules:
+# 	clock_CPU_cpu_test_bench
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:39 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# -- Compiling module clock_irq_mapper
+# 
+# Top level modules:
+# 	clock_irq_mapper
+# End time: 00:01:39 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module clock_mm_interconnect_0
+# 
+# Top level modules:
+# 	clock_mm_interconnect_0
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_UART.v -work UART 
+# -- Compiling module clock_UART_tx
+# -- Compiling module clock_UART_rx_stimulus_source
+# -- Compiling module clock_UART_rx
+# -- Compiling module clock_UART_regs
+# -- Compiling module clock_UART
+# 
+# Top level modules:
+# 	clock_UART
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_TIMER.v -work TIMER 
+# -- Compiling module clock_TIMER
+# 
+# Top level modules:
+# 	clock_TIMER
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_REG_H1.v -work REG_H1 
+# -- Compiling module clock_REG_H1
+# 
+# Top level modules:
+# 	clock_REG_H1
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_REG_Bd.v -work REG_Bd 
+# -- Compiling module clock_REG_Bd
+# 
+# Top level modules:
+# 	clock_REG_Bd
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v -work RAM 
+# -- Compiling module clock_RAM
+# 
+# Top level modules:
+# 	clock_RAM
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v -work JTAG 
+# -- Compiling module clock_JTAG_sim_scfifo_w
+# -- Compiling module clock_JTAG_scfifo_w
+# -- Compiling module clock_JTAG_sim_scfifo_r
+# -- Compiling module clock_JTAG_scfifo_r
+# -- Compiling module clock_JTAG
+# 
+# Top level modules:
+# 	clock_JTAG
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU.v -work CPU 
+# -- Compiling module clock_CPU
+# 
+# Top level modules:
+# 	clock_CPU
+# End time: 00:01:40 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# -- Compiling module altera_irq_mapper
+# 
+# Top level modules:
+# 	altera_irq_mapper
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:41 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_avalon_interrupt_sink.sv -L altera_common_sv_packages -work clock_inst_timer_irq_bfm 
+# -- Compiling module altera_avalon_interrupt_sink
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_interrupt_sink
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:41 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work clock_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:41 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work clock_inst_reg_h1_external_connection_bfm 
+# -- Compiling module altera_conduit_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:41 on Oct 06,2021
+# vlog -reportprogress 300 -sv C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work clock_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:41 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v -work clock_inst 
+# -- Compiling module clock
+# 
+# Top level modules:
+# 	clock
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:41 on Oct 06,2021
+# vlog -reportprogress 300 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/clock_tb.v 
+# -- Compiling module clock_tb
+# 
+# Top level modules:
+# 	clock_tb
+# End time: 00:01:41 on Oct 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_014 -L rsp_demux -L cmd_mux_014 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_016 -L router_002 -L router_001 -L router -L JTAG_avalon_jtag_slave_agent_rsp_fifo -L JTAG_avalon_jtag_slave_agent -L CPU_data_master_agent -L JTAG_avalon_jtag_slave_translator -L CPU_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L UART -L TIMER -L REG_H1 -L REG_Bd -L RAM -L JTAG -L CPU -L clock_inst_timer_irq_bfm -L clock_inst_reset_bfm -L clock_inst_reg_h1_external_connection_bfm -L clock_inst_clk_bfm -L clock_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver clock_tb 
+# Start time: 00:01:42 on Oct 06,2021
+# Loading work.clock_tb
+# Loading clock_inst.clock
+# Loading CPU.clock_CPU
+# Loading CPU.clock_CPU_cpu
+# Loading CPU.clock_CPU_cpu_test_bench
+# Loading CPU.clock_CPU_cpu_register_bank_a_module
+# Loading altera_mf_ver.altsyncram
+# Loading CPU.clock_CPU_cpu_register_bank_b_module
+# Loading CPU.clock_CPU_cpu_nios2_oci
+# Loading CPU.clock_CPU_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading CPU.clock_CPU_cpu_nios2_oci_break
+# Loading CPU.clock_CPU_cpu_nios2_oci_xbrk
+# Loading CPU.clock_CPU_cpu_nios2_oci_dbrk
+# Loading CPU.clock_CPU_cpu_nios2_oci_itrace
+# Loading CPU.clock_CPU_cpu_nios2_oci_dtrace
+# Loading CPU.clock_CPU_cpu_nios2_oci_td_mode
+# Loading CPU.clock_CPU_cpu_nios2_oci_fifo
+# Loading CPU.clock_CPU_cpu_nios2_oci_compute_input_tm_cnt
+# Loading CPU.clock_CPU_cpu_nios2_oci_fifo_wrptr_inc
+# Loading CPU.clock_CPU_cpu_nios2_oci_fifo_cnt_inc
+# Loading CPU.clock_CPU_cpu_nios2_oci_pib
+# Loading CPU.clock_CPU_cpu_nios2_oci_im
+# Loading CPU.clock_CPU_cpu_nios2_avalon_reg
+# Loading CPU.clock_CPU_cpu_nios2_ocimem
+# Loading CPU.clock_CPU_cpu_ociram_sp_ram_module
+# Loading CPU.clock_CPU_cpu_debug_slave_wrapper
+# Loading CPU.clock_CPU_cpu_debug_slave_tck
+# Loading CPU.clock_CPU_cpu_debug_slave_sysclk
+# Loading JTAG.clock_JTAG
+# Loading JTAG.clock_JTAG_scfifo_w
+# Loading JTAG.clock_JTAG_sim_scfifo_w
+# Loading JTAG.clock_JTAG_scfifo_r
+# Loading JTAG.clock_JTAG_sim_scfifo_r
+# Loading RAM.clock_RAM
+# Loading REG_Bd.clock_REG_Bd
+# Loading REG_H1.clock_REG_H1
+# Loading TIMER.clock_TIMER
+# Loading UART.clock_UART
+# Loading UART.clock_UART_tx
+# Loading UART.clock_UART_rx
+# Loading UART.clock_UART_rx_stimulus_source
+# Loading UART.clock_UART_regs
+# Loading mm_interconnect_0.clock_mm_interconnect_0
+# Loading sv_std.std
+# Loading CPU_data_master_translator.altera_merlin_master_translator
+# Loading JTAG_avalon_jtag_slave_translator.altera_merlin_slave_translator
+# Loading CPU_data_master_agent.altera_merlin_master_agent
+# Loading JTAG_avalon_jtag_slave_agent.altera_merlin_slave_agent
+# Loading JTAG_avalon_jtag_slave_agent.altera_merlin_burst_uncompressor
+# Loading JTAG_avalon_jtag_slave_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.clock_mm_interconnect_0_router
+# Loading router.clock_mm_interconnect_0_router_default_decode
+# Loading router_001.clock_mm_interconnect_0_router_001
+# Loading router_001.clock_mm_interconnect_0_router_001_default_decode
+# Loading router_002.clock_mm_interconnect_0_router_002
+# Loading router_002.clock_mm_interconnect_0_router_002_default_decode
+# Loading router_016.clock_mm_interconnect_0_router_016
+# Loading router_016.clock_mm_interconnect_0_router_016_default_decode
+# Loading cmd_demux.clock_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.clock_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.clock_mm_interconnect_0_cmd_mux
+# Loading cmd_mux.altera_merlin_arbitrator
+# Loading cmd_mux.altera_merlin_arb_adder
+# Loading cmd_mux_014.clock_mm_interconnect_0_cmd_mux_014
+# Loading rsp_demux.clock_mm_interconnect_0_rsp_demux
+# Loading rsp_demux_014.clock_mm_interconnect_0_rsp_demux_014
+# Loading rsp_mux.clock_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.clock_mm_interconnect_0_rsp_mux_001
+# Loading rsp_mux_001.altera_merlin_arbitrator
+# Loading rsp_mux_001.altera_merlin_arb_adder
+# Loading avalon_st_adapter.clock_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.clock_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading irq_mapper.clock_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading clock_inst_clk_bfm.altera_avalon_clock_source
+# Loading clock_inst_reg_h1_external_connection_bfm.altera_conduit_bfm
+# Loading clock_inst_reset_bfm.altera_avalon_reset_source
+# Loading clock_inst_timer_irq_bfm.altera_avalon_interrupt_sink
+# Loading irq_mapper.altera_irq_mapper
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/clock_CPU_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/clock_CPU_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/the_clock_CPU_cpu_nios2_oci/the_clock_CPU_cpu_nios2_oci_itrace File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/the_clock_CPU_cpu_nios2_oci/the_clock_CPU_cpu_nios2_ocimem/clock_CPU_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/jtag File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Too few port connections. Expected 14, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/uart File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_UART.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: Design size of 11229 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+#  
+add wave -position end  sim:/clock_tb/clock_inst_reg_h1_external_connection_export
+add wave -position end  sim:/clock_tb/clock_inst_reg_h2_external_connection_1_export
+add wave -position end  sim:/clock_tb/clock_inst_reg_m1_external_connection_export
+add wave -position end  sim:/clock_tb/clock_inst_reg_m2_external_connection_export
+add wave -position end  sim:/clock_tb/clock_inst_reg_s1_external_connection_export
+add wave -position end  sim:/clock_tb/clock_inst_reg_s2_external_connection_export
+run 1ms
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: clock_tb.clock_inst.cpu.cpu.the_clock_CPU_cpu_nios2_oci.the_clock_CPU_cpu_nios2_ocimem.clock_CPU_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: clock_tb.clock_inst.ram.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.reset_assert: Reset asserted
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: - Hello from altera_avalon_interrupt_sink
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   $Revision: #1 $
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   $Date: 2018/07/18 $
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   AV_IRQ_W 	            = 1
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   ASSERT_HIGH_IRQ         = 1
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   ASYNCHRONOUS_INTERRUPT  = 0
+#               990000: INFO: clock_tb.clock_inst_reset_bfm.reset_deassert: Reset deasserted
+Hello from Nio# s II!
+run 2ms
+
+
+
+run 2ms
+
+
+
+
+
+
+r
+# ambiguous command name "r": radiobutton radix raise random_image range rankfile_image read readEvcdFile readers readmapfile really_quit really_restart regexp region_image registry regsub rename resetGlobalEvcd resetTime resolveBusMember restart restartCmd restartDone restartError restartParse restore results_image resultsdir_image resultsdirne_image resultsfile_image resume return right rincr rmdb rmdb_image run runIntHandler runStatus
+
+restart
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/clock_CPU_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/clock_CPU_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/the_clock_CPU_cpu_nios2_oci/the_clock_CPU_cpu_nios2_oci_itrace File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/the_clock_CPU_cpu_nios2_oci/the_clock_CPU_cpu_nios2_ocimem/clock_CPU_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/jtag File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Too few port connections. Expected 14, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/uart File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_UART.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Missing connection for port 'readyfordata'.
+
+restart
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/clock_CPU_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/clock_CPU_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/the_clock_CPU_cpu_nios2_oci/the_clock_CPU_cpu_nios2_oci_itrace File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/cpu/cpu/the_clock_CPU_cpu_nios2_oci/the_clock_CPU_cpu_nios2_ocimem/clock_CPU_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/jtag File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(158): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Too few port connections. Expected 14, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_tb/clock_inst/uart File: C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_UART.v
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock.v(321): [TFMPC] - Missing connection for port 'readyfordata'.
+run 2ms
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: clock_tb.clock_inst.cpu.cpu.the_clock_CPU_cpu_nios2_oci.the_clock_CPU_cpu_nios2_ocimem.clock_CPU_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: clock_tb.clock_inst.ram.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: clock_tb.clock_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: clock_tb.clock_inst_reset_bfm.reset_assert: Reset asserted
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: - Hello from altera_avalon_interrupt_sink
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   $Revision: #1 $
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   $Date: 2018/07/18 $
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   AV_IRQ_W 	            = 1
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   ASSERT_HIGH_IRQ         = 1
+#                    0: INFO: clock_tb.clock_inst_timer_irq_bfm.hello: -   ASYNCHRONOUS_INTERRUPT  = 0
+#               990000: INFO: clock_tb.clock_inst_reset_bfm.reset_deassert: Reset deasserted
+# Hello from Nios II!

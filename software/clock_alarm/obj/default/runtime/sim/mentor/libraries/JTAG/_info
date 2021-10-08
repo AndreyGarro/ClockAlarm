@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kimbe/Documents/ClockAlarm/software/clock_alarm/obj/default/runtime/sim/mentor
+vclock_JTAG
+Z1 !s110 1633500100
+!i10b 1
+!s100 OZdKUWnHS:@MS5Z<oad?_0
+Ij`UKc>0KbXaEiW5D106hA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1633499492
+Z4 8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v
+Z5 FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1633500100.000000
+Z8 !s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v|
+Z9 !s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_JTAG.v|-work|JTAG|
+!i113 1
+Z10 o-work JTAG
+Z11 tCvgOpt 0
+nclock_@j@t@a@g
+vclock_JTAG_scfifo_r
+R1
+!i10b 1
+!s100 0R5l2o`IkJoHPQKaf1^Mn3
+IbO:MIl6QFX<>^0ZmTfTjB1
+R2
+R0
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nclock_@j@t@a@g_scfifo_r
+vclock_JTAG_scfifo_w
+R1
+!i10b 1
+!s100 EG4ZF`a@L01Q:nFD1fzMa0
+I[<@TflK]ZJG[b:K997YL_3
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nclock_@j@t@a@g_scfifo_w
+vclock_JTAG_sim_scfifo_r
+R1
+!i10b 1
+!s100 9FIJL7Za05822_037;?R]3
+IoFONJR9Ob:kReJ7XHR_4B0
+R2
+R0
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nclock_@j@t@a@g_sim_scfifo_r
+vclock_JTAG_sim_scfifo_w
+R1
+!i10b 1
+!s100 c@n3T1;<G^6]O6l=EFA9U1
+I?M8c9GFP=CBP?`T;<oCGf3
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nclock_@j@t@a@g_sim_scfifo_w

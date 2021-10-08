@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kimbe/Documents/ClockAlarm/software/clock_alarm/obj/default/runtime/sim/mentor
+vclock_RAM
+!s110 1633500100
+!i10b 1
+!s100 YImVlmm`R56@g:4F<MmXL2
+I5E9XLG5ai2hF:LehW72Ud2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1633499492
+8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v
+FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v
+L0 21
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1633500100.000000
+!s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v|
+!s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_RAM.v|-work|RAM|
+!i113 1
+o-work RAM
+tCvgOpt 0
+nclock_@r@a@m

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "bcd.h": "c",
+        "alt_stdio.h": "c",
+        "system.h": "c"
+    }
+}

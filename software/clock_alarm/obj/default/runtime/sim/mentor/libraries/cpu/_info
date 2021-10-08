@@ -1,0 +1,582 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kimbe/Documents/ClockAlarm/software/clock_alarm/obj/default/runtime/sim/mentor
+vclock_CPU
+!s110 1633500100
+!i10b 1
+!s100 :AJFlf57DCD2PHFQ16Imc1
+I`CgAYE1<F?3<b=F07KYN70
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1633499491
+8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU.v
+FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU.v
+L0 9
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1633500100.000000
+!s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU.v|
+!s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU.v|-work|CPU|
+!i113 1
+o-work CPU
+Z3 tCvgOpt 0
+nclock_@c@p@u
+vclock_CPU_cpu
+Z4 !s110 1633500099
+!i10b 1
+!s100 7S^2[68iJ@S7o_ehY>Qka2
+IfLSPen]X:mECXHiTV^c3l0
+R1
+R0
+Z5 w1633499514
+Z6 8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v
+Z7 FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v
+L0 2834
+R2
+r1
+!s85 0
+31
+Z8 !s108 1633500099.000000
+Z9 !s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v|
+Z10 !s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu.v|-work|cpu|
+!i113 1
+Z11 o-work cpu
+R3
+nclock_@c@p@u_cpu
+vclock_CPU_cpu_debug_slave_sysclk
+R4
+!i10b 1
+!s100 b9WN?;JHebUU>^[OUe?<;0
+IbVHMiXI[]hhK6PSO=f2nF1
+R1
+R0
+R5
+8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_sysclk.v
+FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_sysclk.v
+Z12 L0 21
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_debug_slave_sysclk
+vclock_CPU_cpu_debug_slave_tck
+R4
+!i10b 1
+!s100 nhgSH9W62M>D2DBj8gB@20
+I[heV5EY>Bfg[ZQCVUad1G2
+R1
+R0
+R5
+8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_tck.v
+FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_tck.v
+R12
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_debug_slave_tck
+vclock_CPU_cpu_debug_slave_wrapper
+R4
+!i10b 1
+!s100 [W@aGmk<z6c<]Fldn4zf50
+I2WhOWR_k2gcLoA8`NRGJV0
+R1
+R0
+R5
+8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_wrapper.v
+FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_wrapper.v
+R12
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_debug_slave_wrapper
+vclock_CPU_cpu_nios2_avalon_reg
+R4
+!i10b 1
+!s100 YoZ@T7D8Gd0A]e_6oY6ZV0
+IX1`=8VW_5EfIz]E;?QL]?3
+R1
+R0
+R5
+R6
+R7
+L0 2023
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_avalon_reg
+vclock_CPU_cpu_nios2_oci
+R4
+!i10b 1
+!s100 AZW]6>^>S7Hci=B8m>^`O1
+ILkU7<g_;E0TCCkmi^XAoF2
+R1
+R0
+R5
+R6
+R7
+L0 2362
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci
+vclock_CPU_cpu_nios2_oci_break
+R4
+!i10b 1
+!s100 X7QX079GiO=<i^fcikfPl3
+Ih4mP`Ll7Y4o6E57S]J]l]3
+R1
+R0
+R5
+R6
+R7
+L0 295
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_break
+vclock_CPU_cpu_nios2_oci_compute_input_tm_cnt
+R4
+!i10b 1
+!s100 OIMZnN9J8NYzIXFM_ANI@2
+IlCN@hDHCT@RH4Bg96AN5A2
+R1
+R0
+R5
+R6
+R7
+L0 1265
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_compute_input_tm_cnt
+vclock_CPU_cpu_nios2_oci_dbrk
+R4
+!i10b 1
+!s100 L[1bl[JfEo7dEemoMCf]50
+IDNzz3X7i86;?=J<7;E8`k2
+R1
+R0
+R5
+R6
+R7
+L0 795
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_dbrk
+vclock_CPU_cpu_nios2_oci_debug
+R4
+!i10b 1
+!s100 A`4E]iTK5il1iXBPjm5=f3
+IPQfO:z2?MAUojk<0YZfT?3
+R1
+R0
+R5
+R6
+R7
+L0 153
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_debug
+vclock_CPU_cpu_nios2_oci_dtrace
+R4
+!i10b 1
+!s100 zKBbgNlo_=Bmhhiefm1hf2
+ITj7XI>0QCTZe=JKT8HRDN0
+R1
+R0
+R5
+R6
+R7
+L0 1183
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_dtrace
+vclock_CPU_cpu_nios2_oci_fifo
+R4
+!i10b 1
+!s100 1RnmT<WUIz^m@CAGNQh]22
+I4:h5NGllA2Bn?WAd_6Tna2
+R1
+R0
+R5
+R6
+R7
+L0 1427
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_fifo
+vclock_CPU_cpu_nios2_oci_fifo_cnt_inc
+R4
+!i10b 1
+!s100 gDjaXW4;mXJgJ;[CadRU91
+I:A?S8=HJ3hicgb]:io8J63
+R1
+R0
+R5
+R6
+R7
+L0 1380
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_fifo_cnt_inc
+vclock_CPU_cpu_nios2_oci_fifo_wrptr_inc
+R4
+!i10b 1
+!s100 AZJWN7?Ja@XlCYk7dkcOA0
+I[B^oG>l:gjUJHGhDB@:9>1
+R1
+R0
+R5
+R6
+R7
+L0 1337
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_fifo_wrptr_inc
+vclock_CPU_cpu_nios2_oci_im
+R4
+!i10b 1
+!s100 B2E`3U0ECANWKWDUe4>W^0
+Ideo6fX2=4PWe[_G9f@UV@3
+R1
+R0
+R5
+R6
+R7
+L0 1936
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_im
+vclock_CPU_cpu_nios2_oci_itrace
+R4
+!i10b 1
+!s100 YbH:;DmTPZcd1mLJUhAa60
+I7P<FbMVWJI2GzVPM]6o>W2
+R1
+R0
+R5
+R6
+R7
+L0 982
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_itrace
+vclock_CPU_cpu_nios2_oci_pib
+R4
+!i10b 1
+!s100 ?hnj]5QUeP5DzKIETJZFW3
+IMAfB05mbLY@Z29doOF8]@3
+R1
+R0
+R5
+R6
+R7
+L0 1913
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_pib
+vclock_CPU_cpu_nios2_oci_td_mode
+R4
+!i10b 1
+!s100 _:?J7df3RdEclO?OSKfFk1
+II?G<jB`8AfGd0:aJm_@c62
+R1
+R0
+R5
+R6
+R7
+L0 1115
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_td_mode
+vclock_CPU_cpu_nios2_oci_xbrk
+R4
+!i10b 1
+!s100 WR2gz=DFbdToJmdiJocjH3
+IZMoP[5iQMWNOGmWe4SdXo2
+R1
+R0
+R5
+R6
+R7
+L0 588
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_oci_xbrk
+vclock_CPU_cpu_nios2_ocimem
+R4
+!i10b 1
+!s100 ;<::>[Knj;XPMbHPi2h^e0
+I71WgO98=DX_U6H]RB_CmM0
+R1
+R0
+R5
+R6
+R7
+L0 2181
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_ocimem
+vclock_CPU_cpu_nios2_performance_monitors
+R4
+!i10b 1
+!s100 2mQcODkAGjYfgJIIak1QY1
+I`7AAPjL6Z32j=ziA^^M0a0
+R1
+R0
+R5
+R6
+R7
+L0 2006
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_nios2_performance_monitors
+vclock_CPU_cpu_ociram_sp_ram_module
+R4
+!i10b 1
+!s100 Z1^kRf>Z3bH?OHzgl?ofG3
+I^=JSh=5NC3AM[@Q7F;dI@2
+R1
+R0
+R5
+R6
+R7
+L0 2116
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_ociram_sp_ram_module
+vclock_CPU_cpu_register_bank_a_module
+R4
+!i10b 1
+!s100 3l<hEXnl`DzSXX1D9jSHW3
+I7o>3[<CoBKGQm]ZTQhY;N1
+R1
+R0
+R5
+R6
+R7
+R12
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_register_bank_a_module
+vclock_CPU_cpu_register_bank_b_module
+R4
+!i10b 1
+!s100 f?IN<gMm=D[V6h<bhEa9:2
+Ic`KNejF^6=g[KjaK;5BH[1
+R1
+R0
+R5
+R6
+R7
+L0 87
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_register_bank_b_module
+vclock_CPU_cpu_test_bench
+R4
+!i10b 1
+!s100 >8j2YgFk1oY@`O^fJQ71O1
+IeASebW[JDD^lJ4nZ7C<>?3
+R1
+R0
+R5
+8C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_test_bench.v
+FC:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_test_bench.v
+R12
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_test_bench.v|
+!s90 -reportprogress|300|C:/Users/kimbe/Documents/ClockAlarm/clock/testbench/clock_tb/simulation/submodules/clock_CPU_cpu_test_bench.v|-work|cpu|
+!i113 1
+R11
+R3
+nclock_@c@p@u_cpu_test_bench
